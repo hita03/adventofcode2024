@@ -1,5 +1,5 @@
 import sys
-from collections import defaultdict, Counter
+from collections import Counter
 
 infile = sys.argv[1] if len(sys.argv)>=2 else '/Users/hitajuneja/Documents/GitHub/adventofcode2024/1/input.txt'
 D = open(infile).read().strip()
